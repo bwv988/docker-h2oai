@@ -1,5 +1,7 @@
 # H2O.ai Docker container
 
+[![Build Status](https://api.travis-ci.org/bwv988/docker-h2oai.svg?branch=master)](https://travis-ci.org/bwv988/docker-h2oai)
+
 ## Description
 
 Experimental docker container for H20.ai.
