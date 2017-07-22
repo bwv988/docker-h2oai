@@ -13,7 +13,7 @@ env:
 
 after_success:
   - echo "Pushing Docker images to Docker Hub..."
-  - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+  - docker login -u "$DOCKER_USER" -p "$DOCKER_PASS"
   - ./build.sh
   - docker tag bwv988/h2oai bwv988/h2oai:latest  
   - docker push bwv988/h2oai
